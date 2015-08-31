@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="/stylesheets/default.css"/>
+		<title>Danielle Camerons Blog Post</title>
+	</head>	
+	<body>
+		<header>
+		<div class="one">
+			<div class="nav"><a href="#">Contact</a></div>
+			<div class="nav"><a href="#">Blog</a></div>
+			<div class="nav"><a href="#">About</a></div>
+			<div class="nav"><a href="#">Home</a></div>
+			<div class="logo">DLC</div>
+		</div>
+	</header>	
+		<div class="blogtitle">Getting Classy With Ruby</div>
+			<br>
+			
+		<p>
+			Forgive me as you read this. I am still rough around the edges with classes or more specifically when to use instance
+			variables. This blog post is a work in progress.
+			<h5>What is a Class</h5>
+			A class is a roadmap from which individual objects are created. And let's not forget the a class is also an object in Ruby, basically everything is. Within a class you can have methods for the certian characteristics you want you class to have.
+			Example: You have 3 cats but they all have a different combination of color, names and genders. Your class would be cat, the 
+			individual methods to help set them apart would be color, names and gender.
+			<h5>Instance Variables/<h5>
+			An instance variable definded by placing and @ sign infront of the name is making it avaible to every method in the class. It is allowing it to move freely within the class and hold the content at the moment/instance. Local methods are defined within a method and cant transfer to another without redefining it. 
+			<h5>Example of a Class Called Cats</h5>
+			<xmp>class Cat (classes names start with a capital letter)
+				def initialize (name,color,gender)
+					@name=name
+					@color=color
+					@gender=gender
+				end
+				def name
+					puts #{@name}
+				end
+				def color
+					puts #{@name}
+				end
+				def gender
+					if @gender.start_with?("f")
+						put "female"
+					else "male"
+					end
+				end
+			end	
+			<xmp>					
+		</p>
+		<footer>
+
+		<div class="foot"><a href="https://twitter.com/D_Leigh_C"><img scr="#"/>Twitter</a></div>
+		<div class="foot"><a href="https://www.facebook.com/danielle.l.cameron"><img scr="#"/>Facebook</a></div>
+		<div class="foot"><a href="#"><img scr="#"/>Linkedin</a></div>
+		<div class="foot"><a href="#"><img scr="#"/>Github</a></div>
+
+	</footer>	
+	</body>
+</html>		
