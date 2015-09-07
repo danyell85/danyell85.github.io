@@ -62,6 +62,7 @@ h3{
 	text-decoration: none;
 	color: black;
 	font-size: 20px;
+
 }
 .text{
 	width:50%;
@@ -117,4 +118,7 @@ span{
 }
 section{
 	text-align: center;
+}
+.resume{
+	text-align: left;
 }
