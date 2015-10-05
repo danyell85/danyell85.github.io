@@ -10,6 +10,10 @@ header{
 	margin-left: 20px;
 
 }
+.further{
+	text-align: left;
+	
+}
 .nav{
 	display:inline;
 	float: right;
