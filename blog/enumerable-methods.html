@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="/stylesheets/default.css"/>
+		<title>Danielle Camerons Blog Post</title>
+	</head>	
+	<body>
+		<header>
+		<div class="one">
+			<div class="nav"><a href="contact.html">Contact</a></div>
+			<div class="nav"><a href="blog.html">Blog</a></div>
+			<div class="nav"><a href="about.html">About</a></div>
+			<div class="nav"><a href="danyell85.github.io">Home</a></div>
+			<div class="logo">DLC</div>
+		</div>
+	</header>	
+		<div class="blogtitle">Partition</div>
+			<br>
+		<section>
+			<p>I ran accross this handing method during a pairing session this week. Partition returns two arrays after iterating through a range or even another array. The first array will contain the elements for what parition evaluated as true and the rest get placed within the second array. Let me show you an example to further explain.
+			</p>
+			<code><xmp>
+				Example 1:Calling parition on a range of numbers seperate the odd elements from the even.
+				(1..10).partition {|element| element.odd?} => [[1,3,5,7,9],[2,4,6,8,10]]
+			</xmp></code>
+			<code><xmp>
+				Example 2: Calling parition on an array of numbers to seperate the elements that are evenly divisble by 3.
+				array_of_numbers = [1,3,5,7,9,12]
+				array_of_numbers.partition{|element| if element % 3 == 0}
+			</xmp></code>	
+			<p> For further reference please see <a href= "http://ruby-doc.org/core-2.2.3/Enumerable.html#method-i-partition">Ruby Docs</a></p>	
+		</section>	
+
+
+
+	<footer>
+		<div class="foot"><a href="https://twitter.com/D_Leigh_C"><img scr="#"/>Twitter</a></div>
+		<div class="foot"><a href="https://www.facebook.com/danielle.l.cameron"><img scr="#"/>Facebook</a></div>
+		<div class="foot"><a href="#"><img scr="#"/>Linkedin</a></div>
+		<div class="foot"><a href="#"><img scr="#"/>Github</a></div>
+	</footer>	
+	</body>
+</html>		
