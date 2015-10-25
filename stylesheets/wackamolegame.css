@@ -1,3 +1,16 @@
 html {
-	background-color: red;
+	background-color: green;
 }
+.h2mole{
+	text-align: center;
+	color: black;
+}
+/*.molehills{
+	width: 100px;
+	height:100px;
+	background-color: #8B4513;
+	border-color: black;
+	display: inline-block;
+	text-align: center;
+
+}*/
