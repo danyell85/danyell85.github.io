@@ -23,11 +23,11 @@ function timer(){
     endTimer = setTimeout(show,1000);
 	}
 
-var endTimer = setTimeout(timer,3000);
+var endTimer = setTimeout(timer,1000);
 function show() {
 	moleimg.style.visibility = "visible";
 	posmole();
-	endTimer = setTimeout(timer,3000);
+	endTimer = setTimeout(timer,1000);
 }
 var player = {
 	hits : 0,
