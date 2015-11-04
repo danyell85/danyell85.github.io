@@ -49,3 +49,9 @@ footer{
 	text-decoration: none;
 	color:blue;
 }
+table{
+	border: 2px black solid;
+}
+tr{
+	border: 2px black solid;
+}
