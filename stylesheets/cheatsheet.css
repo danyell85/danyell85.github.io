@@ -51,7 +51,12 @@ footer{
 }
 table{
 	border: 2px black solid;
+	margin: auto;
 }
 tr{
 	border: 2px black solid;
+}
+thead{
+	text-align: center;
+	font-size: 30px;
 }
