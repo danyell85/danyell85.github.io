@@ -1,0 +1,51 @@
+header{
+	background-color: #d3d3d3;
+	height:80px;
+}
+.logo{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 80px;
+	margin-left: 20px;
+
+}
+.further{
+	text-align: left;
+	
+}
+.nav{
+	display:inline;
+	float: right;
+	margin-right: 1em;
+}
+.nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 80px;
+}
+.nav a:hover{
+	color:white;
+	text-decoration: none;
+}
+footer{
+	bottom:0;
+	margin-top: 10px;
+	
+}
+.foot{
+	display: inline-block;
+	text-align: center;	
+	width: 24%;
+
+}
+.foot a{
+	text-decoration: none;
+	vertical-align: center;
+	color: black;
+}
+.foot a:hover{
+	text-decoration: none;
+	color:blue;
+}
