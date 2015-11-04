@@ -59,6 +59,11 @@ tr{
 td{
 	border: 1px black solid;
 }
+.headtd{
+	font-size: 16px;
+	font-weight: bold;
+	background-color: yellow;
+}
 thead{
 	margin: auto;
 	font-size: 30px;

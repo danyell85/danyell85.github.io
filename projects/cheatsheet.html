@@ -16,12 +16,12 @@
 	</header>
 		<section>
 			<table>
-				<thead> Emuns Like I To Use Cheat Sheet </thead>
+				<thead> Emuns I Have Learned To Use Cheat Sheet </thead>
 				<tr>
-					<td>Method</td>
-					<td>Description</td>
-					<td>Syntax</td>
-					<td>Returns</td>
+					<td class = "headtd">Method</td>
+					<td class = "headtd">Description</td>
+					<td class = "headtd">Example</td>
+					<td class = "headtd">Returns</td>
 				</tr>	
 				<tr>
 					<td>count</td>
@@ -40,6 +40,21 @@
 					<td>Passes each entry in emun to block. Returns the first for which is the block is true</td>
 					<td>(1..100).find {|i| i % 5 == 0 and i % 7 == 0} </td>
 					<td> 35 </td>
+				</tr>
+				<tr>
+					<td>find_all</td>
+					<td>Returns an array containing all elements of emun for which the given block returns true</td>
+					<td>(1..10.find_all { |i| i % 3 == 0 }</td>
+					<td>[3,6,9]</td>
+				</tr>	
+				<tr>
+					<td>include?</td>
+					<td>Returns true if any member of emun equals object. Equality is tested using ==.</td>
+					<td>["a","b","d"].include?("d")</td>
+					<td> true </td>
+				</tr>	
+				<tr>
+					<td></td>
 				</tr>	
 
 
