@@ -73,3 +73,11 @@ td{
 td ul li a{
 	color:black;
 }
+.blogpost{
+	text-align: center;
+}
+.blogtitle{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
