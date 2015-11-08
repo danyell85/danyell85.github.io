@@ -1,0 +1,53 @@
+
+.nav-pills{
+	width:400px;
+	margin: auto;
+	height: 3em;
+}
+.center{
+	background-color: gray;
+}
+
+.nav-pills li{
+	float:right;
+}
+
+.nav-pills li a{
+	color: black;
+}
+.footer{
+	bottom: 0;
+	background-color: gray;
+}
+.Pic{
+	border-radius: 45%;
+	border: solid 2px black;
+}
+.alitte{
+	text-align: center;
+	clear: both;
+	font-weight: bold;
+	font-size: 24px;
+}
+.text{
+	width:50%;
+	text-align: center;
+	float:left;
+	padding-top: 5%;
+	margin-left: -5%
+}
+.me{
+	width:50%;
+	text-align: center;
+	float:left;
+}
+.port{
+	clear:both;
+	padding-bottom: 200px;
+}
+.class1{
+	margin:0;
+	display:inline-block;
+	width: 33%;
+	text-align: center;
+}
