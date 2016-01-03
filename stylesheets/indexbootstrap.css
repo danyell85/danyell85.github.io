@@ -1,4 +1,91 @@
+/*Mobile*/
+.nav nav-pills {
+  display: block;
+  float: none;
+  vertical-align: top;
 
+}
+.nav-pills li{
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+}
+.center , footer{
+	background-color: #d3d3d3;
+}
+
+.logo{
+	text-align: center;
+}
+
+.alittle{
+	text-align: center;
+}
+.Pic{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 75%;
+	border: solid 2px black;
+}
+.text{
+	text-align: center;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+@media screen and (min-width: 420px){
+	.nav-pills li{
+		width:auto;
+		display: inline-block;
+		font-size: 1em;
+	}
+	#nav_bar li{
+		float:right;
+	}
+	#footer_link li{
+		display: inline-block;
+	}
+	.logo{
+		font-size: 2em;
+	}
+	footer{
+		bottom: 0;
+		clear: both;
+		text-align: center;
+	}
+	.alitte{
+	text-align: center;
+	clear: both;
+	font-weight: bold;
+	font-size: 24px;
+}
+.text{
+	min-width: 90%;
+	padding-top: 5%;
+	font-style: oblique;
+	padding-bottom: 3%;
+}
+
+.Pic{
+	width:48%;
+	max-width: 20%;
+	text-align: center;
+	float:left;
+	margin: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+/*
 .nav-pills{
 	width:400px;
 	margin: auto;
@@ -80,4 +167,4 @@ td ul li a{
 	text-align: center;
 	font-size: 16px;
 	font-weight: bold;
-}
+}*/
