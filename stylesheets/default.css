@@ -18,6 +18,9 @@
 .navbar.navbar-inverse{
 	z-index: -1;
 }
+.boxbackgroudnd{
+	background: transparent;
+}
 .navdesign1, .navdesign2, .navdesign3, .navdesign4{
 	display:inline-block;
 	width: 15%;
