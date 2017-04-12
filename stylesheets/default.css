@@ -15,19 +15,19 @@
 	padding-bottom: 5px;
 
 }
-.navbar.navbar-inverse{
-	z-index: -2;
-}
-.navdesign1, .navdesign2, .navdesign3, .navdesign4{
-	display:inline-block;
-	width: 15%;
-}
-.navdesign1, .navdesign3{
-	background-color: white;
-}
-.navdesign2, .navdesign4{
-	background-color: yellow;
+.containerbox{
+	text-align: center;
+	width: 200px;
 
+}
+.boxbackground{
+	margin: auto;
+}
+.navdesign{
+	display:inline-block;
+	width: 30px;
+	background-color: white;
+	border: blue, solid, 2px;
 }
 
 .interest{
