@@ -5,7 +5,7 @@
 	height: 600px;
 	top: 0;
 	left: 0;
-	z-index: -2;
+	z-index: -1;
 }
 .jumbotron{
 	height: 600px;
@@ -16,11 +16,7 @@
 
 }
 .navbar.navbar-inverse{
-	z-index: -1;
-	position: absolute;
-}
-.boxbackgroudnd{
-	background: transparent;
+	z-index: -2;
 }
 .navdesign1, .navdesign2, .navdesign3, .navdesign4{
 	display:inline-block;
