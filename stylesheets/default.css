@@ -15,12 +15,11 @@
 	padding-bottom: 5px;
 
 }
-.boxbackgroud{
-	margin: auto;
+.navbar.navbar-inverse{
+	z-index: -1;
 }
 .navdesign1, .navdesign2, .navdesign3, .navdesign4{
 	display:inline-block;
-	position: relative;
 	width: 15%;
 }
 .navdesign1, .navdesign3{
