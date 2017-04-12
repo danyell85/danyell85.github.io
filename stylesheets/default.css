@@ -24,7 +24,6 @@
 }
 .fa.fa-puzzle-piece{
 	color:black;
-	font-size: 80px;
 
 }
 #box2{
@@ -40,6 +39,7 @@
 }
 #footer{
 	bottom: 0px;
+	clear:both;
 }
 
 /*Mobile */
