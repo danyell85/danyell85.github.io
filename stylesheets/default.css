@@ -12,11 +12,9 @@
 	color: white;
 	background:transparent;
 }
-
 #interest{
- display: inline-block;
+	height: 350px;
 }
-
 #box1{
 	background-color: yellow;
 }
