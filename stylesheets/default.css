@@ -11,8 +11,11 @@
 	height: 350px;
 	color: white;
 	background:transparent;
+	margin-bottom: 5px;
+	padding-bottom: 0px;
+
 }
-#interest{
+.interest{
 	height: 350px;
 }
 #box1{
