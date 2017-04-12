@@ -22,7 +22,7 @@
 	font-family: "Caflisch Script Pro", cursive;
 	font-size: xx-large;
 }
-.fa-puzzle-piece{
+.fa.fa-puzzle-piece{
 	color:black;
 	font-size: 80px;
 
@@ -40,7 +40,6 @@
 }
 #footer{
 	bottom: 0px;
-	clear:both;
 }
 
 /*Mobile */
