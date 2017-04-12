@@ -28,6 +28,11 @@
 	background-color: purple;
 }
 
+.contact{
+	background-color: green
+	height: 350px;
+}
+
 /*Mobile */
 
 @media only screen and (max-width: 600px) {
