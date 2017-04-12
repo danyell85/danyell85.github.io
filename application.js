@@ -1,6 +1,7 @@
 $(document).ready(function() {
-  about();
-  contact();
+  about()
+  contact()
+  console.log("I got here")
 });
 
 function about(){
