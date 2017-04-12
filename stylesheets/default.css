@@ -29,8 +29,11 @@
 }
 
 .contact{
-	background-color: green
+	background-color: green;
 	height: 350px;
+}
+#footer{
+	bottom: 0px;
 }
 
 /*Mobile */
