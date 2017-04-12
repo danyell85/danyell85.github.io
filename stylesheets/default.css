@@ -1,3 +1,7 @@
+*{
+	box-sizing:border-box;
+}
+
 .background{
 	background-color: blue;
 	position: fixed;
@@ -25,18 +29,12 @@
 .boxbackground{
 	margin: auto;
 }
-@-webkit-keyframes colorbox{
-	0%   {background-color: white;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
-}
+
 .navdesign{
 	display:inline-block;
 	width: 100px;
 	height: 100px;
 	background-color: white;
-	animation-duration: 5s;
 	border: blue, solid, 2px;
 }
 
