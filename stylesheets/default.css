@@ -15,6 +15,9 @@
 	padding-bottom: 5px;
 
 }
+.boxbackgroud{
+	margin: auto;
+}
 .navdesign1, .navdesign2, .navdesign3, .navdesign4{
 	display:inline-block;
 	position: relative;
