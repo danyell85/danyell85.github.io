@@ -34,9 +34,9 @@
 	background-color: green;
 	height: 350px;
 }
-#footer{
-	bottom: 0px;
-	clear:both;
+
+#footerdiv{
+	clear: both;
 }
 
 /*Mobile */
