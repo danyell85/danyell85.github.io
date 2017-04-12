@@ -13,6 +13,10 @@
 	background:transparent;
 }
 
+#interest{
+ display: inline-block;
+}
+
 #box1{
 	background-color: yellow;
 }
