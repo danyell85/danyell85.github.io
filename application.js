@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 
 function about(){
-  $(".interest").click(function(e){
+  $(".interestloc").click(function(e){
     $("html,body").animate({ scrollTop: $('.jumbotron').height() }, "slow");
 })
 };
