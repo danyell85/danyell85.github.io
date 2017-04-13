@@ -63,11 +63,31 @@
 
 .contact{
 	background-color: green;
-	height: 350px;
+	height: 500px;
 }
 .contacth1{
 	top:0px;
 }
+
+.form-control{
+	width: 40em;
+	clear: left;
+}
+.button{
+	margin-top: 10px;
+	float:left;
+}
+.textinput{
+	height: 10em;
+}
+.inputinfo{
+	float: left;
+}
+.contactinfo{
+	float:right;
+	width: 30em;
+}
+
 .footer {
   background: gray;
   padding: 10px 0;
