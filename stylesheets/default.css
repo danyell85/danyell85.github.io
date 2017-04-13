@@ -62,7 +62,7 @@
 }
 
 .contact{
-	background-color: green;
+	background-image: url("contact.jpg");
 	height: 500px;
 }
 .contacth1{
@@ -86,6 +86,9 @@
 .contactinfo{
 	float:right;
 	width: 30em;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 4%;
 }
 
 .footer {
