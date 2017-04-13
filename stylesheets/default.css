@@ -75,11 +75,11 @@
 .footer a {
   color: white;
   padding: 10px;
-  border-right: 1px solid #70726F;
+  border-right: 1px solid black;
   transition: all .5s ease;
 }
 .footer a:first-child {
-  border-left: 1px solid #70726F;
+  border-left: 1px solid black;
 }
 .footer a:hover {
   color: #f46841;
