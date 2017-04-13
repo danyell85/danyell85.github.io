@@ -26,6 +26,23 @@
 	height: 300px;
 	position: relative;
 }
+.sectionbox{
+	width:400px;
+	height: 400px;
+	background-color: lightgray;
+	margin: auto;
+	text-align: center;
+
+}
+.section2inner{
+	border-top: 1px solid lightgray;
+	height:500px;
+	padding-top: 50px;
+}
+.sectionh2{
+	text-align: center;
+    padding-top: 10%;
+}
 .footer {
   background: gray;
   padding: 10px 0;

@@ -72,6 +72,10 @@
 	background-image: url("../Basic.jpg");
 	background-size:cover;
 }
+.basicbox2{
+	background-image: url("../website2.jpg");
+	background-size:cover;
+}
 .websiteh1{
 	margin: 0px;
     top: 100%;
@@ -88,8 +92,8 @@
 .website{
 	width:80%;
 	height: 300px;
-	background-image: url("../Basic.jpg");
-	background-size:cover;
+	/*background-image: url("../Basic.jpg");
+	background-size:cover;*/
 	text-align: center;
 	box-shadow: 0px 2px 16px #888888;
 	margin:auto;
