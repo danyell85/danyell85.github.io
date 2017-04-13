@@ -1,6 +1,7 @@
 *{
 	box-sizing:border-box;
 }
+* body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
 @keyframes colorswitch {
     /*from {background-color: #f46841;}
     to {background-color: yellow;}*/
@@ -24,7 +25,7 @@
     animation-iteration-count: 10;
 }   
 .jumbotron{
-	height: 600px;
+	height: 525px;
 	color: white;
 	background:transparent;
 	margin-bottom: 5px;
@@ -138,7 +139,7 @@
   background: gray;
   padding: 10px 0;
 }
-.footer a {
+.footer a {	
   color: white;
   padding: 10px;
   border-right: 1px solid black;
