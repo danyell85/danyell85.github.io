@@ -12,6 +12,6 @@ function about(){
 
 function contact(){
   $(".contactloc").click(function(e){
-    $("html,body").animate({ scrollTop: $('.interest').height() }, "slow");
+    $("html,body").animate({ scrollTop: $('.footer').height())}, "slow");
 })
 };
