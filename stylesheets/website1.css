@@ -101,7 +101,7 @@ ul#menu li {
     margin-top: 35px;
     background: #d4d6d3;
 	border: 1px solid #BEBDBD;
-	padding: 15px;
+	padding: 15px 15px 30px 15px;
 }
 #sidebar h3{
     font-size: 24px;
@@ -125,4 +125,17 @@ ul#subscribe li a {
 ul#subscribe li {
     padding-bottom: 5px; 
     padding-left: 30px;
+}
+a.button {
+    color: #393838;
+    text-decoration: none;
+    background-color: lightgreen;
+    margin-left: 30px;
+    padding:13px 23px;
+}
+#footer {
+	padding-top: 20px;
+    padding-bottom:60px;
+    margin-top: 40px;
+    color: #fff; 
 }
