@@ -27,7 +27,9 @@
 */
 }
 .boxbackground{
-	margin: auto;
+	text-align: center;
+	width: 500px;
+    margin-left: 30%;
 }
 
 .navdesign{
