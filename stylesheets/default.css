@@ -18,6 +18,10 @@
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 }
+.bginner{
+	margin: auto;
+	text-align: center;
+}
 .text-center{
 	position: relative;
     top: 60px;
@@ -26,17 +30,16 @@
 	position: relative;
     top: 90px;
 }
-}
+
 .boxbackground{
     position: absolute;
-    left: 20%;
+    width: 100%;
     top: 3%;
 }
 .navdesign{
 	display:inline-block;
 	width: 150px;
 	height: 150px;
-	background-color: white;	
 }
 
 .interest{
