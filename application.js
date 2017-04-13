@@ -11,7 +11,7 @@ function about(){
 };
 
 function contact(){
-  $(".contact").click(function(e){
+  $(".contactloc").click(function(e){
     $("html,body").animate({ scrollTop: $('.interest').height() }, "slow");
 })
 };
