@@ -54,7 +54,12 @@
 	height: 350px;
 	position: relative;
 }
-
+.website{
+	width:80%;
+	height: 300px;
+	border:1px black solid;
+	margin: auto;
+}
 .contact{
 	background: url("../contact.jpg");
 	background-size: cover;
