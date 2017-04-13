@@ -44,21 +44,15 @@
 }
 
 .interest{
-	height: 500px;
+	height: 800px;
 	border: 1px solid black;
 }
-#box1{
+.box{
 	font-family: "Caflisch Script Pro", cursive;
 	font-size: xx-large;
-}
-
-#box2{
-	font-family: "Caflisch Script Pro", cursive;
-	font-size: xx-large;
-}
-#box3{
-	font-family: "Caflisch Script Pro", cursive;
-	font-size: xx-large;
+	width: 47%;
+	height: 350px;
+	position: relative;
 }
 
 .contact{
