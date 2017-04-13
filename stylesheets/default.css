@@ -35,9 +35,9 @@
 	margin: auto;
 	text-align: center;
 }
-.text-center{
-	position: relative;
-    top: 60px;
+.jumbo{
+	position: relative;;
+	top:60px;
 }
 .text-center p{
 	position: relative;
