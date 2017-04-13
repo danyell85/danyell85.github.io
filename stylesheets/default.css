@@ -17,28 +17,26 @@
 	background:transparent;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
-
 }
-/*.containerbox{
-	text-align: center;
-	width: 500px;
-    margin-left: 420px;
+.text-center{
+	position: relative;
+    top: 60px;
 }
-*/
+.text-center p{
+	position: relative;
+    top: 90px;
+}
 }
 .boxbackground{
     position: absolute;
-    /*top: 100px;
-    left: 20%;*/
+    left: 20%;
+    top: 3%;
 }
 .navdesign{
 	display:inline-block;
 	width: 150px;
 	height: 150px;
-	background-color: white;
-	/*position: relative;
-	top: 100px;
-	left: 17%;*/
+	background-color: white;	
 }
 
 .interest{
