@@ -5,3 +5,24 @@
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+.projects{
+	font-size: 24px;
+	font-weight: normal;
+    font-family: 'Lato', sans-serif;
+}
+.projectsection{
+	padding-top: 5%;
+	height: 500px;
+}
+.circles{
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: lightgray;
+	margin: auto;
+	text-align: center;
+}	
+.box{
+	height: 300px;
+	position: relative;
+}
