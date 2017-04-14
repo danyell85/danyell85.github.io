@@ -166,4 +166,21 @@
   .navdesign {
     display: none;
   }
+ .background, .jumbotron{
+ 	height: 300px;
+ }
+.websitesection{
+	padding-bottom: 50%;
+}
+ .contactinfo, .contactform{
+    float: left;
+    clear: left;
+
+}
+.contactinfo{
+	text-align: center;
+}
+.contactform{
+
+}
 }
