@@ -145,6 +145,7 @@
 .footer {
   background: gray;
   padding: 10px 0;
+  clear: both;
 }
 .footer a {	
   color: white;
@@ -161,11 +162,8 @@
 
 /*Mobile */
 
-@media only screen and (max-width: 600px) {
-.navdesign{
-	display:inline-block;
-	width: 15px;
-	height: 15px;
-	background-color: white;	
-}
+@media screen and (max-width:480px) {  
+  .navdesign {
+    display: none;
+  }
 }
