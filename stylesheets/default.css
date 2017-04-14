@@ -172,15 +172,22 @@
 .websitesection{
 	padding-bottom: 50%;
 }
+.contact{
+	height: 600px;
+}
  .contactinfo, .contactform{
     float: left;
     clear: left;
+    width: 98%;
 
 }
 .contactinfo{
-	text-align: center;
+	font-size: 15px;
 }
-.contactform{
-
+.inputinfo{
+	width: 98%;
+}
+.form-control{
+	width:100%;
 }
 }
